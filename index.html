@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diploma CGPA Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>CGPA Calculator<br><h5>For Diploma in Engineering</h5></h1>
+    <form id="cgpaForm">
+      <div class="form-group">
+        <select id="regulation" required>
+          <option value="" disabled selected>Select Regulation Year</option>
+          <option value="2010">2010</option>
+          <option value="2016">2016</option>
+          <option value="2022">2022</option>
+        </select>
+        <input type="number" id="semester1" placeholder="1st">
+        <input type="number" id="semester2" placeholder="2nd">
+        <input type="number" id="semester3" placeholder="3rd">
+        <input type="number" id="semester4" placeholder="4th">
+        <input type="number" id="semester5" placeholder="5th">
+        <input type="number" id="semester6" placeholder="6th">
+        <input type="number" id="semester7" placeholder="7th">
+        <input type="number" id="semester8" placeholder="8th">
+      </div>
+      <div class="buttons">
+        <button type="button" class="calculate" onclick="calculateCGPA()">RESULT</button>
+        <button type="button" class="clear" onclick="clearFields()">AC</button>
+      </div>
+    </form>
+    <div class="result" id="result"></div>
+    <div class="footer">
+      <p>Developed by <a href="https://www.facebook.com/heheboy00">Avijit Roy</a></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
