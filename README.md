@@ -1,7 +1,7 @@
 # Diploma_CGPA_Calculator
 This is a CGPA calculator for "Diploma in engineering" students. It has 3 regulation years. 
 
-Process of use.
+_Process of use._
 
 >>It is very easy to use ana user friendly app.
 >>All you need to just give your each semester result in the input fild.
@@ -16,6 +16,6 @@ _______This app is developed by Avijit Roy._______
 >Roll: 550664
 
 
->>______CONTACT______
+_____CONTACT______
 
 mail: aviroy2005@gmail.com
