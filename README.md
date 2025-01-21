@@ -19,3 +19,4 @@ _______This app is developed by Avijit Roy._______
 _____CONTACT______
 
 mail: aviroy2005@gmail.com
+Visit project: https://royavi21.github.io/Diploma_CGPA_Calculator/
