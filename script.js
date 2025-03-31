@@ -34,4 +34,5 @@ function calculateCGPA() {
     // Clear result display
     document.getElementById('result').innerText = '';
   }
-  
+
+//Author: Avijit Roy
